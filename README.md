@@ -46,7 +46,7 @@ su -c "/usr/local/bin/gpiotrigger -time=5 -pin=27 -command=/usr/local/bin/gpio_s
 
 # インストール方法
 ```
-$go install github.com/nasu-tomoyuki/gpiotrigger
+$go get github.com/nasu-tomoyuki/gpiotrigger
 ```
 
 これで github からソースを取得し、$GOPATH/bin にビルド結果をコピーします。
